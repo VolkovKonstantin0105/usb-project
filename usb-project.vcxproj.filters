@@ -36,6 +36,12 @@
     <ClCompile Include="UsbDeviceList.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="PcapStreamParser.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="UsbPcapCapture.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h">
@@ -45,6 +51,15 @@
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="UsbDeviceList.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="UsbPcapProtocol.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="PcapStreamParser.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="UsbPcapCapture.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>
