@@ -33,12 +33,18 @@
     <ClCompile Include="MainWindow.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="UsbDeviceList.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h">
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="MainWindow.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="UsbDeviceList.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>
